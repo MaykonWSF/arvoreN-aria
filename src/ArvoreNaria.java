@@ -15,6 +15,7 @@ public class ArvoreNaria {
         if (raiz == null) {
             return null;
         } else if (raiz.getValor() == valor) {
+            System.out.println("Nó encontrado.");
             return raiz;
         }
 
